@@ -1,0 +1,23 @@
+plugins {
+    id "jacoco"
+    id "org.sonarqube" version "2.7"
+}
+sonarqube {
+    properties {
+        property 'sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage'
+    }
+}
+dependencies {
+    compile project(':repository')
+    testCompile 'org.springframework.boot:spring-boot-starter-test:2.2.4.RELEASE'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}

@@ -1,0 +1,41 @@
+.interactive-tag {
+    padding: 40px 0 40px 20px;
+}
+
+div.interactive-tag > div {
+    display: inline-block;
+    width: 80%;
+    float: right;
+}
+.add-certificate-tags-block > .form-element {
+    margin: 0;
+}
+
+.tag-element {
+    border: 1px solid #ddd;
+    background: #eee;
+    display: block;
+    padding: 5px 10px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.delete-tag {
+    float: right;
+}
+
+.delete-tag:hover {
+    cursor: pointer;
+}
+
+button.add-tag {
+    background-color: #ff8e18;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    float: left;
+    box-shadow: -2px 3px 7px grey;
+}

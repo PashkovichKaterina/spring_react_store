@@ -1,0 +1,22 @@
+allprojects {
+    group 'com.epam.esm'
+    version '1.0-SNAPSHOT'
+}
+subprojects {
+    apply plugin: 'java'
+    sourceCompatibility = '1.8'
+
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+
+    dependencies {
+        compile 'org.springframework.boot:spring-boot-starter-web:2.2.4.RELEASE'
+        compile 'org.springframework.boot:spring-boot-starter-security:2.2.4.RELEASE'
+        compile 'org.springframework.boot:spring-boot-starter-oauth2-client:2.2.0.RELEASE'
+    }
+}

@@ -1,0 +1,5 @@
+rootProject.name = 'esm-rest-api'
+include 'rest'
+include 'service'
+include 'repository'
+

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Verdana, sans-serif;
+    overflow-x:hidden;
+}
+
+#root {
+    display: table;
+    height: 100vh;
+}
+
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100vw;
+}

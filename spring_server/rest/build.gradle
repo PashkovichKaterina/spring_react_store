@@ -1,0 +1,5 @@
+dependencies {
+    compile project(':service')
+    compile 'io.jsonwebtoken:jjwt:0.9.1'
+    compile 'org.springframework.hateoas:spring-hateoas:1.0.3.RELEASE'
+}

@@ -1,0 +1,176 @@
+/*ERROR POPUP*/
+.error-popup {
+    display: table-cell;
+    position: absolute;
+    background-color: rgba(255, 102, 102, 0.61);
+    padding: 20px 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.error-popup-message {
+    color: #b20100;
+    float: left;
+    margin: 0 50px;
+    font-size: 15px;
+}
+
+.error-close-button {
+    float: right;
+    margin: 0 50px;
+    color: #b20100;
+    font-size: 20px;
+}
+
+.error-close-button:hover {
+    cursor: pointer;
+}
+
+/*SUCCESS POPUP*/
+.success-popup {
+    display: table-cell;
+    position: absolute;
+    background-color: rgba(100, 255, 101, 0.61);
+    padding: 20px 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.success-popup-message {
+    color: #029e08;
+    float: left;
+    margin: 0 50px;
+    font-size: 15px;
+}
+
+.success-close-button {
+    float: right;
+    margin: 0 50px;
+    color: #029e08;
+    font-size: 20px;
+}
+
+.success-close-button:hover {
+    cursor: pointer;
+}
+
+/*CERTIFICATE POPUP*/
+.certificate-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.certificate-popup > div {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    background-color: white;
+}
+
+.certificate-popup > div > div {
+    padding: 20px;
+}
+
+.certificate-popup h1 {
+    background-color: #6699FF;
+    color: white;
+    padding: 20px;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.close-certificate-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.close-certificate-button:hover {
+    cursor: pointer;
+}
+
+.popup-footer {
+    background-color: #6699FF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr.even {
+    background-color: rgba(102, 153, 255, 0.31);
+}
+
+td {
+    text-align: left;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+
+td.name {
+    width: 20%;
+    font-weight: bold;
+}
+
+/*WARNING POPUP*/
+.warning-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.warning-popup > div {
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 25%;
+    width: 50%;
+    height: 400px;
+}
+
+.warning-button-block {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.warning-button {
+    margin: 0 10px;
+}
+
+.warning-text {
+    padding: 50px 50px;
+}
+
+.warning-popup-message {
+    margin: 10px 0;
+}
+
+.warning-popup-message-title {
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.confirmation {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}

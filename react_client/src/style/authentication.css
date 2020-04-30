@@ -1,0 +1,107 @@
+main, main.authentication {
+    display: table-row;
+    height: 100%;
+}
+
+main > div {
+    padding: 70px 0;
+    position: relative;
+}
+
+main.authentication > div {
+    display: table-cell;
+    position: relative;
+}
+
+.half {
+    display: inline-block;
+    width: 50%;
+}
+
+.half img {
+    width: 60%;
+}
+
+form.authentication {
+    width: 40%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 100%;
+    padding: 5px 0;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #6699FF;
+}
+
+input.error-field {
+    outline: none;
+    border-bottom: 2px solid #FF6666;
+}
+
+.form-element {
+    margin: 40px 0 auto;
+    text-align: left;
+}
+
+button {
+    background-color: #6699FF;
+    border: 2px solid #6699FF;
+    padding: 10px 40px;
+    color: white;
+}
+
+button:hover {
+    color: #6699FF;
+    background-color: white;
+    cursor: pointer;
+}
+button.disabled-button {
+    background-color: gray;
+    border: 2px solid gray;
+    padding: 10px 40px;
+    color: white;
+    cursor: default;
+}
+button.disabled-button:hover {
+    background-color: gray;
+    border: 2px solid gray;
+    padding: 10px 40px;
+    color: white;
+    cursor: default;
+}
+
+.error-message {
+    color: #FF6666;
+    text-align: left;
+    font-size: 12px;
+}
+
+.oauth-button-block {
+    margin-top: 20px;
+}
+
+.oauth-button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.explanation-message {
+    display: inline-block;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}

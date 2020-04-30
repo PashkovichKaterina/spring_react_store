@@ -1,0 +1,190 @@
+.certificate {
+    margin: 20px 40px;
+    width: 35%;
+    box-shadow: -2px 2px 5px grey;
+    display: inline-block;
+}
+
+.certificate-header {
+    padding: 30px 10px;
+}
+
+.certificate-title {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+.certificate-title:hover {
+    cursor: pointer;
+}
+
+.certificate-creation-date {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.certificate-content {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 122, 255, 0.18);
+}
+
+.certificate-content > ul {
+    margin: 10px;
+}
+
+.tag-block {
+    display: inline-block;
+    background-color: #22c877;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.tag-block:hover {
+    cursor: pointer;
+}
+
+.certificate-description {
+    padding: 0 10px 20px;
+}
+
+.certificate-price {
+    font-weight: bold;
+}
+
+.certificate-footer {
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.older {
+    float: left !important;
+}
+
+.newer {
+    float: right !important;
+}
+
+button.certificate-button {
+    background-color: #FF6666;
+    border: 2px solid #FF6666;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+button.certificate-button:hover {
+    color: #FF6666;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*SEARCH FORM*/
+form.search {
+    margin: 20px 0;
+}
+
+input.search {
+    border: 1px solid gray;
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+}
+
+input.search-error {
+    border: 2px solid #FF6666;
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+}
+
+input.search:focus {
+    border: 2px solid #6699FF;
+}
+
+select, option {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+button.search {
+    margin: 0 -2px;
+    padding: 10px 15px;
+}
+
+button.search-error {
+    border: 2px solid #FF6666;
+    background-color: #FF6666;
+    margin: 0 -2px;
+    padding: 10px 15px;
+}
+
+/* ADD/EDIT FORM */
+.certificate-form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edit-certificate-button-block {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.edit-certificate-button {
+    background-color: #FF6666;
+    border: 2px solid #FF6666;
+    margin: 0 10px;
+}
+
+.edit-certificate-button:hover, .add-certificate-button:hover {
+    color: #FF6666;
+}
+
+.disabled-edit-certificate-button, .disabled-edit-certificate-button:hover {
+    background-color: gray;
+    border: 2px solid gray;
+    margin: 0 10px;
+    color: white;
+    cursor: default;
+}
+
+.add-certificate-button {
+    background-color: #FF6666;
+    border: 2px solid #FF6666;
+    padding: 5px 20px;
+    margin: 0 20px;
+}
+
+.input-length {
+    text-align: right;
+    font-size: 13px;
+}
+
+.input-length-error {
+    text-align: right;
+    font-size: 13px;
+    color: #FF6666;
+}
+
+.empty-search-result {
+    margin: 100px 0;
+}

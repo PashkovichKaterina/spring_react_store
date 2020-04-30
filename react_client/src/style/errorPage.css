@@ -1,0 +1,13 @@
+.header {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text {
+    padding: 20px 100px;
+    font-size: 20px;
+}
+
+.error-image {
+    width: 50%!important;
+}
